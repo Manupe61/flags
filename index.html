@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8" />
+<title>Bandeiras</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<h1>Vamos jogar?</h1>
+<h2> Regras:</h2>
+<h3>
+> serão cinco rodadas</br>
+> ganha um ponto para cada país que acertar</br>
+> ganha dois pontos para cada capital que acertar</br>
+> perde um ponto para cada resposta errada.
+</h3>
+<script>
+var pontos = 0;
+var rodada = 6;
+var rpais = false;
+var rcapital = false;
+</script>
+<button type="submit" onclick="sorteio();">Começar</button>
+</br></br>
+<img id="flag" width = 300px height = 200px>
+<p>Qual o nome do país desta bandeira?</p>
+<ul id = "opais">
+<li><input type="radio" name="opcao" id="certopais" value="acertou!"><span id="pais"></span></li>
+<li><input type="radio" name="opcao" id="erradopais" value = "errou!"><span id="randomPais1"></span></li>
+<li><input type="radio" name="opcao" id="erradopais" value = "errou!"><span id="randomPais2"></span></li>
+</ul>
+</br>
+<button type="submit"  onClick="respostaPais()">Ver País</button>
+</br></br>
+<span id="respostaDoPais"></span>
+<p>Qual o nome da Capital do país?</p>
+<ul id = "acapital">
+<li><input type="radio" name="opcao" id="certocapital" value="acertou!"><span id="capital"></span></li>
+<li><input type="radio" name="opcao" id="erradocapital" value = "errou!"><span id="randomCapital1"></span></li>
+<li><input type="radio" name="opcao" id="erradocapital" value = "errou!"><span id="randomCapital2"></span></li>
+</ul>
+</br>
+<button type="submit"  onClick="respostaCapital()">Ver Capital</button>
+</br></br>
+<span id="respostaDaCapital"></span>
+</br></br>
+<span id="rodadasfaltantes">Rodada</span>
+</br></br>
+Pontos: <span id="pontos"></span>
+</br></br>
+<script src = "js/arrays.js"></script>
+<script src = "js/sorteio.js"></script>
+<script src = "js/funcoes.js"></script>
+<button type="submit"  onClick="limpar(); sorteio();">Nova Bandeira</button>
+</br></br>
+</body>
+</html>
+</body>
+</html>
+

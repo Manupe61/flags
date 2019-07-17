@@ -1,0 +1,19 @@
+a:link { color:#33c; } 
+a:visited { color:#339; }
+p { max-width: 60em; }
+
+#flag {
+     border:solid; 
+     border-color: black;
+    }
+
+ul {
+     list-style-type: none;
+     display: inline;
+     padding: 0 0px 0 0px;
+     margin: 0 0 0 0;
+     }
+
+li {
+     margin: 0 0 0 0;
+}
