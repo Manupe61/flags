@@ -1,4 +1,17 @@
    
+    var visivel = false;
+
+    function mostrar(){
+    var objDiv = document.getElementById('oculto');     
+       if (visivel == false){
+          objDiv.style.display = "block"; 
+          visivel = true;             
+       }else{
+          objDiv.style.display = "none";
+          visivel = false;         
+    }
+    }
+    
 /*
 função para verificar se a resposta é a correta
 */

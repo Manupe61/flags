@@ -8,13 +8,13 @@ rpais = false;
 rcapital = false;
 rodada = rodada - 1;
 
-var sorte = Math.floor(( Math.random() * 60 ) +1);
+var sorte = Math.floor(( Math.random() * 71 ) +1);
   switch (sorte) {
 
       case sorte=1:
         var pais = 'Afeganistão';
         var capital = 'Kabul'
-        var url = 'img/Afghanistan.png';
+        var url = 'img/Afeganistão.png';
       break;
 
       case sorte=2:
@@ -32,7 +32,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=4:
         var pais = 'Samoa Americana';
         var capital = 'Pago Pago'
-        var url = 'img/American_Samoa.png';
+        var url = 'img/Samoa Americana.png';
       break;
 
       case sorte=5:
@@ -56,7 +56,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=8:		
         var pais = 'Antigua e Barbuda';
         var capital = 'Saint John'
-        var url = 'img/Antigua_and_Barbuda.png';
+        var url = 'img/Antigua e Barbuda.png';
       break;
 
       case sorte=9:		
@@ -92,7 +92,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=14:		
         var pais = 'Azerbaijão';
         var capital = 'Baku'
-        var url = 'img/Azerbaijan.png';
+        var url = 'img/Azerbaijão.png';
       break;	
 
       case sorte=15:		
@@ -122,13 +122,13 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=19:		
       var pais = 'Bielorrússia';
       var capital = 'Minsk'
-      var url = 'img/Belarus.png';
+      var url = 'img/Bielorrússia.png';
       break;	
 
       case sorte=20:		
       var pais = 'Bélgica';
       var capital = 'Bruxelas'
-      var url = 'img/Belgium.png';
+      var url = 'img/Bélgica.png';
       break;	
 
       case sorte=21:		
@@ -152,7 +152,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=24:		
       var pais = 'Butão';
       var capital = 'Timbu'
-      var url = 'img/Bhutan.png';
+      var url = 'img/Butão.png';
       break;	
 
       case sorte=25:		
@@ -182,7 +182,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=29:		
       var pais = 'Ilhas Virgens Britânicas';
       var capital = 'Road Town'
-      var url = 'img/British_Virgin_Islands.png';
+      var url = 'img/Ilhas Virgens Britânicas.png';
       break;	
 
       case sorte=30:		
@@ -218,7 +218,7 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=35:		
       var pais = 'Camarões';
       var capital = 'Yaoundé'
-      var url = 'img/Cameroon.png';
+      var url = 'img/Camarões.png';
       break;	
 
       case sorte=36:		
@@ -230,19 +230,19 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=37:		
       var pais = 'Cabo Verde';
       var capital = 'Praia'
-      var url = 'img/Cape_Verde.png';
+      var url = 'img/Cabo Verde.png';
       break;	
 
       case sorte=38:		
       var pais = 'Ilhas Caimã';
       var capital = 'George Town'
-      var url = 'img/Cayman_Islands.png';
+      var url = 'img/Ilhas Caimã.png';
       break;	
 
       case sorte=39:		
       var pais = 'República Central Africana';
       var capital = 'Bangui'
-      var url = 'img/Central_African_Republic.png';
+      var url = 'img/República Central Africana.png';
       break;	
 
       case sorte=40:		
@@ -272,19 +272,19 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=44:		
       var pais = 'Costa Rica';
       var capital = 'San José'
-      var url = 'img/Costa_Rica.png';
+      var url = 'img/Costa Rica.png';
       break;	
 
       case sorte=45:		
-      var pais = 'Costa do Merfim';
+      var pais = 'Costa do Marfim';
       var capital = 'Yamussucro'
-      var url = 'img/Côte_dIvoire.png';
+      var url = 'img/Costa do Marfim.png';
       break;	
 
       case sorte=46:		
       var pais = 'Croácia';
       var capital = 'Zagrebe'
-      var url = 'img/Croatia.png';
+      var url = 'img/Croácia.png';
       break;	
 
       case sorte=47:		
@@ -296,13 +296,13 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       case sorte=48:		
       var pais = 'Chipre';
       var capital = 'Nicósia'
-      var url = 'img/Cyprus.png';
+      var url = 'img/Chipre.png';
       break;	
 
       case sorte=49:		
       var pais = 'Republica Tcheca';
       var capital = 'Praga'
-      var url = 'img/Czech_Republic.png';
+      var url = 'img/Republica Tcheca.png';
       break;	
 
       case sorte=50:		
@@ -336,9 +336,9 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       break; 
 
       case sorte=55:		
-      var pais = 'El_Salvador';
+      var pais = 'El Salvador';
       var capital = 'São Salvador'
-      var url = 'img/El_Salvador.png';
+      var url = 'img/El Salvador.png';
       break; 
 
       case sorte=56:		

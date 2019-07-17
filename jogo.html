@@ -13,9 +13,10 @@ var rodada = 6;
 var rpais = false;
 var rcapital = false;
 </script>
-<button type="submit" id="comecar" onclick="sorteio();">Começar</button>
+<button type="submit" id="comecar" onclick="mostrar(), sorteio();">Iniciar</button>
 <!-- <script>if (document.getElementById("comecar").checked != false) {window.stop();} else {document.getElementById("comecar").checked = false} </script>-->
 </br></br>
+<div id="oculto">
 <img id="flag" width = 300px height = 200px>
 <p>Qual o nome do país desta bandeira?</p>
 <ul id = "opais">
@@ -46,6 +47,7 @@ Pontos: <span id="pontos"></span>
 <script src = "js/sorteio.js"></script>
 <script src = "js/funcoes.js"></script>
 <button type="submit"  onClick="limpar(); sorteio();">Nova Bandeira</button>
+</div>
 </br></br>
 </body>
 </html>
