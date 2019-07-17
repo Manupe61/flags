@@ -370,6 +370,72 @@ var sorte = Math.floor(( Math.random() * 60 ) +1);
       var capital = 'Suva'
       var url = 'img/Fiji.png';
       break;
+
+      case sorte=61:		
+      var pais = 'Finlandia';
+      var capital = 'Helsinque'
+      var url = 'img/Finlandia.png';
+      break;
+
+      case sorte=62:		
+      var pais = 'França';
+      var capital = 'Paris'
+      var url = 'img/França.png';
+      break;
+
+      case sorte=63:		
+      var pais = 'Gabão';
+      var capital = 'Libreville'
+      var url = 'img/Gabão.png';
+      break;
+
+      case sorte=64:		
+      var pais = 'Gâmbia';
+      var capital = 'Banjul'
+      var url = 'img/Gambia.png';
+      break;
+
+      case sorte=65:		
+      var pais = 'Georgia';
+      var capital = 'Tiblissi'
+      var url = 'img/Georgia.png';
+      break;
+
+      case sorte=66:		
+      var pais = 'Alemanha';
+      var capital = 'Berlim'
+      var url = 'img/Alemanha.png';
+      break;
+
+      case sorte=67:		
+      var pais = 'Gana';
+      var capital = 'Acra'
+      var url = 'img/Gana.png';
+      break;
+
+      case sorte=68:		
+      var pais = 'Gibraltar';
+      var capital = 'Cidade de Gibraltar'
+      var url = 'img/Gibraltar.png';
+      break;
+
+      case sorte=69:		
+      var pais = 'Grécia';
+      var capital = 'Atenas'
+      var url = 'img/Grécia.png';
+      break;
+
+      case sorte=70:		
+      var pais = 'Groelândia';
+      var capital = 'Nuuk'
+      var url = 'img/Groelândia.png';
+      break;
+
+      case sorte=71:		
+      var pais = 'Granada';
+      var capital = 'São Jorgegit '
+      var url = 'img/Granada.png';
+      break;
   }
 
 /*

@@ -28,4 +28,9 @@ var capitalArray = ["Abu Dhabi", "Abuja", "Acra", "Adamstown", "Adis Abeba", "Ar
 "Ashgabat", "Asmara", "Assunção", "Atenas", "Avarua", "Bagdá", "Baku", "Bamako", "Bandar Seri Begawan", "Banguecoque", "Bangui",
 "Banjul", "Basseterre", "Beijing", "Beirute", "Belgrado", "Belmopan", "Berlim", "Berna", "Bishkek", "Bissau", "Bogotá", "Brasília",
 "Bratislava", "Bridgetown", "Bruxelas", "Bucareste", "Budapeste", "Buenos Aires", "Cairo", "Camberra", "Caracas", "Conakry", "Copenhagem",
-"Dakar", "Damasco", "Dhaka", "Dili", "Djibouti", "Dodoma", "Doha", "Dublim", "Dushanbe"];
+"Dakar", "Damasco", "Dhaka", "Dili", "Djibouti", "Dodoma", "Doha", "Dublim", "Dushanbe", "Freetown", "Funafuti", "Gaborone", "Georgetown", "Gibraltar", "Gitega", "Cidade de Guatemala", "Gustavia", "Hamilton", 
+"Hanga Roa", "Hanoi", "Harare", "Hargeisa", "Havana", "Helsinki", "Honiara", "Islamabad", "Jakarta", "Jamestown", "Jarabulus",
+"Jerusalem", "Juba", "Kabul", "Kampala", "Kathmandu", "Khartoum", "Kyiv", "Kigali", "Kingstown", "Kinshasa", "Kuala Lumpur",
+"Cidade do Kuwait", "Libreville", "Lilongwe", "Lima", "Lisboa", "Ljubljana", "Lomã", "Londres", "Luanda", "Lusaka", "Luxemburgo",
+"Madrid", "Majuro", "Malabo", "Managua", "Manama", "Manila", "Maputo", "Marigot", "Maseru", "Mata-Utu", "Mbabane", "Lobamba",
+"Cidade do Mexico", "Minsk", "Mogadíscio", "Monaco", "Monrovia", "Montevideo", "Moscou", "Muscat"];
